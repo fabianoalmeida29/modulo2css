@@ -5,12 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+            
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+            }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+
+
+        }
+
+        thead, tfoot {
+            background-color: gray;
+            color: black;
+        }  
+        
+        caption{
+            font-size: 35px;
+            padding: 10px;
+        }
+        tbody > tr:nth-child(odd) { /*2n-1*/
+            background-color: white;
+        }
+        tbody > tr:nth-child(even) { /*2n*/
+            background-color: lightgray;
+        }
+    </style>
 </head>
 <body>
     <h1>Uso de tabelas grandes</h1>
 
     <!--ANATOMIA PARA TABELAS GRANDES
     TABLE
+        CAPTION    
           THEAD
                TR, TD TH
           TBODY
@@ -19,6 +62,7 @@
                TR, TD, TH
     -->
     <table>
+        <caption>Estados</caption>
         <thead>
              <tr>
                  <th>Posição</th>
@@ -27,11 +71,335 @@
              </tr>
         </thead>
         <tbody>
-            <tr>São Paulo</tr>
-            <tr>46 649 132</tr>
-
+            <tr>
+                 <td>1º</td>
+                 <td>São Paulo</td>
+                 <td> 46 649 132</td>
+            </tr>
+            <tr>
+                <td>2º</td>
+                <td>Minas Gerais</td>
+                <td>21 411 923</td>
+            </tr>
+            <tr>
+                <td>3º</td>
+                <td>Rio De Janeiro</td>
+                <td>17 463 349</td>
+            </tr>
+            <tr>
+                <td>4º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>5º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>6º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>7º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>8º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>5º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>6º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>7º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>8º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>5º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>6º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>7º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>8º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>5º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>6º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>7º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>8º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>5º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>6º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>7º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>8º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>5º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>6º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>7º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>8º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>5º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>6º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>7º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>8º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>5º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>6º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>7º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>8º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>5º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>6º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>7º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>8º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>5º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>6º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>7º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>8º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>5º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>6º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>7º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>8º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>5º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>6º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>7º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>8º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>5º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>6º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>7º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>8º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>5º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>6º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>7º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>8º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>5º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>6º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>7º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>8º</td>
+                <td>  </td>
+                <td></td>
+            </tr>
         </tbody>
         <tfoot>
+            <tr>
+                <th>Total de Habitantes</th>
+                <td></td>
+                <td></td>
+                
+                
+            </tr>
 
         </tfoot>
     </table>
