@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXERCICIO DE TABELAS </title>
+</head>
+<body>
+    <style>
+        body{
+            font-family: sans-serif;
+            text-align: center;
+            background-color: chocolate;
+            
+
+        }
+        h1{
+            padding-bottom: 10px;
+            text-align: center;
+            color: white;
+            background-color: black;
+        }
+
+        caption{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 30px;
+            font-size: bolder;
+            padding: 10px;
+           background-color: white;
+           border: 1px solid black;
+           box-shadow: 1px 1px 2px black;
+        }
+        table{
+            margin: auto;
+            width: 500px;
+            border-collapse: collapse;
+            table-layout: center;
+            background-color: darkgrey;
+            
+        }
+      
+        th,td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        .cnome{
+            background-color: rgb(90, 110, 199);
+            
+        }
+
+
+    </style>
+    <h1>TABELA 05</h1>
+
+    <table>
+        <colgroup>
+            <!--Caso queira aplicar o mesmo efeito em duas ou mais c. basta colocar <col class="cgrup" span="3"-->
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprofissão">
+        </colgroup>
+        <caption>CADASTRO</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td> Ana Maria </td>
+            <td> Feminino </td>
+            <td> 25 </td>
+            <td> Jornalista</td>
+        </tr>
+        <tr>
+            <td> Maria </td>
+            <td> Feminino </td>
+            <td> 30 </td>
+            <td> Médica</td>
+        </tr>
+        <tr>
+            <td> Julia </td>
+            <td> Feminino </td>
+            <td> 25 </td>
+            <td> Dentista</td>
+        </tr>
+        <tr>
+            <td> Fabiano </td>
+            <td> Masculino </td>
+            <td> 23 </td>
+            <td> Progamador</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
